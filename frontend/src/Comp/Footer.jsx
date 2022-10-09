@@ -41,6 +41,11 @@ const Footer = () => {
             borderBottom: "none",
             textDecoration: "none",
           }}
+          onClick={() => {
+            if (location.pathname === "/content") {
+              window.location.reload();
+            }
+          }}
         >
           {props.headline}
         </Link>
