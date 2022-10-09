@@ -1,0 +1,16 @@
+.set_display{
+    display:flex;
+    flex-direction: column;   
+}
+.add_video_image_style{
+    border-radius: 50px;
+    border:1px solid black;
+}
+
+@media screen and (max-width: 480px) {
+    .display_flex{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+  }

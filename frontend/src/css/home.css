@@ -1,0 +1,90 @@
+.home{
+    height:100%;
+}
+.background{
+    background: url("../images/bg-122.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    height: 100vh;
+}
+.pad_home_title{
+    padding-top:10%;
+}
+.pad_home_title h1{
+    font-size:70px;
+    font-weight: bolder;
+    text-shadow: "10px 10px 25px #fff" !important;
+}
+.pad_home_title h3{
+    font-size:50px;
+}
+.set_box_style{
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:black;
+    color:rgb(255, 255, 255);
+    box-shadow: 10px 10px 8px #188755;
+    border:1px solid darkgreen;
+    /* margin:50px; */
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+    width:40vh;
+    height:50vh;
+}
+.set_box_style h1,p{
+    margin-left:10px;
+    margin-right:10px;
+}
+.width_set_video{
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+}
+.set_margin_button button{
+   margin-left:-10px;
+    
+}
+.set_right_video_btn button{
+    margin-top:75px;
+    background-color:white;
+    border:none;
+}
+.set_left_video_btn button{
+    margin-top:75px;
+    background-color:white;
+    border:none;
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:black !important;
+  }
+.team_card_style{
+    /* box-shadow: 10px 10px 8px #188755; */
+    border:2px solid black !important;
+  }
+@media screen and (max-width: 480px) {
+    .pad_home_title{
+        padding-top:45%;
+    }
+    .set_right_video_btn{
+        display:none;
+    }
+    .set_left_video_btn{
+        display:none;
+    }
+    #set_logo_text{
+        font-size: 18px !important;
+    }
+    .home_bg_fluid_set_mobile .carousel-item{
+        max-width: 100%;
+  height: auto;
+    }
+}

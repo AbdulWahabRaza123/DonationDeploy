@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+body{
+  font-family: 'Source Sans Pro', sans-serif !important;
+  background-color: #fff !important;
+}
+.text-color{
+  color:gray;
+}
+.email_nav_above{
+ margin-right:10px;
+}
+.ml_nav_above p{
+  margin-left:10px;
+  
+}
+button.rec-dot{
+  background-color: black !important;
+}
+
+button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
+  box-shadow: 0 0 1px 3px black;
+  background-color: black !important;
+}
+.nav_above_set_border{
+  border:3.5px solid #188755;
+  border-radius:10px;
+}
+.change_flex_wrap{
+  flex-wrap:wrap;
+}
+.footer-style{
+    padding-top:50px;
+    /* padding-bottom:10px; */
+    /* background-color: gray; */
+    background-color: black;
+    color:white;
+    border:1px solid white;
+}
+.footer-style a{
+  color:white !important;
+}
+.recent_post_list li{
+  border-bottom: 1px solid black;
+  max-width:57%;
+}
+.recent_post_list li a{
+  color:black;
+  text-decoration: none;
+}
+.footer_last{
+  margin-top:30px;
+  padding-top:20px;
+  color:gray;
+  border:1px solid white;
+  font-weight: bold;
+  background-color: black;
+}
+.set_border_mission{
+  border:1px solid green;
+  box-shadow: 10px 10px 8px #188755;
+  background-color:black;
+  color:white;
+  border-radius:25px;
+  padding:15px;
+  margin-top:50px !important;
+}
+.mission_img_style{
+  border-radius:20px;
+  height:500px !important;
+  width:600px !important;
+}
+.developer{
+  float:right;
+  margin-left:auto;
+}
+button:hover{
+background-color:black !important;
+}

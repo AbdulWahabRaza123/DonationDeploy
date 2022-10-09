@@ -1,0 +1,22 @@
+.set_navItems_side{
+    /* float:right; */
+    margin-left:auto;
+}
+.active{
+    border-bottom:1px solid #188755 !important;
+    color:#188755 !important;
+}
+.brand_name{
+    border-bottom:none !important;
+    /* font-size:25px; */
+    /* font-weight:bolder; */
+}
+nav{
+    border-radius:10px !important;
+    border:1px solid white !important;
+    /* background-color: gray !important; */
+    color:aliceblue !important;
+}
+.navbar_round{
+    background-color: gray !important;
+}
