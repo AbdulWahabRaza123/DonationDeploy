@@ -3,7 +3,6 @@ import { toast } from "react-toastify";
 const DelFVideos = (props) => {
   const delFVideo = async () => {
     const title = props.title;
-    console.log("Title is ", title);
     const res = await fetch("/remFVideo", {
       method: "POST",
       headers: {

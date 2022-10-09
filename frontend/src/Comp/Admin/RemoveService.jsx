@@ -32,7 +32,6 @@ function RemoveService() {
         credentials: "include",
       });
       const data = await res.json();
-      console.log("Data is ", data);
       if (data.message === "done") {
         setNews(data.data);
       }

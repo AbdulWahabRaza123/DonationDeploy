@@ -15,7 +15,6 @@ const Services = () => {
       });
       const data = await res.json();
       if (data.message === "done") {
-        console.log("Data is here ", data);
         setNews(data.data);
       } else {
         toast.error("No Data!", {

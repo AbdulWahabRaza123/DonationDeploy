@@ -34,7 +34,6 @@ const RemTeam = () => {
         },
       });
       const data = await res.json();
-      console.log("This is Team Data ", data);
       for (var i = 0; i < data.imageData.length; i++) {
         const id = data.imageData[i]._id;
         const { name, description } = data.imageData[i];
@@ -49,7 +48,6 @@ const RemTeam = () => {
         setImgArr((val) => {
           return [...val, imageObjectURL];
         });
-        console.log("This is data for teams ", teamData);
       }
     } catch (e) {
       alert("Error!!!");

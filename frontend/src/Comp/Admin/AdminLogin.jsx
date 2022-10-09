@@ -5,7 +5,6 @@ import { NavContext } from "../../App";
 const AdminLogin = () => {
   const { navDispatch } = useContext(NavContext);
   const [pShow, setPShow] = useState(false);
-
   const [login, setLogin] = useState({
     email: "",
     password: "",
@@ -38,7 +37,6 @@ const AdminLogin = () => {
       }),
     });
     const data = await res.json();
-    console.log("Data is here ", data);
     if (data.message === "error") {
       toast.error("Invalid Error!", {
         className: "set_notify",

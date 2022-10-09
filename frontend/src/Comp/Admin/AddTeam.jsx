@@ -39,7 +39,6 @@ const AddTeam = () => {
         },
       })
       .then(async (res) => {
-        console.log("this is response ", res.data.message);
         if (res.data.message === "done") {
           const res2 = await fetch("/addTeam", {
             method: "POST",
@@ -101,12 +100,6 @@ const AddTeam = () => {
   const handleFileInput = (e) => {
     console.log(e.target.files[0]);
     const formData = new FormData();
-    console.log(
-      "File is here ",
-      e.target.files[0],
-      " name is ",
-      e.target.files[0].name
-    );
     formData.append("Image", e.target.files[0], e.target.files[0].name);
     setImage(formData);
   };

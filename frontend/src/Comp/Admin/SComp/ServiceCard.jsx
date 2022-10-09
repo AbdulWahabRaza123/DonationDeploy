@@ -5,7 +5,6 @@ const ServiceCard = (props) => {
   const deleteService = async () => {
     try {
       const headline = props.headline;
-      console.log("this is headline ", props.headline);
       const res = await fetch("/deleteService", {
         method: "POST",
         headers: {

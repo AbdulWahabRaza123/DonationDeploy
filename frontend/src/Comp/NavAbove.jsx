@@ -1,10 +1,12 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import EmailIcon from "@mui/icons-material/Email";
 import PersonPinCircleIcon from "@mui/icons-material/PersonPinCircle";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount";
 const NavAbove = () => {
   return (
     <>
@@ -82,6 +84,17 @@ const NavAbove = () => {
             <a href="#youtube" alt="youtube">
               <YouTubeIcon style={{ marginRight: "10px", color: "white" }} />
             </a>
+            <NavLink
+              exact
+              to="/admin"
+              style={{
+                borderBottom: "none",
+                textDecoration: "none",
+                color: "white",
+              }}
+            >
+              <SupervisorAccountIcon />
+            </NavLink>
           </div>
         </div>
       </div>

@@ -35,7 +35,6 @@ const Home = () => {
   useEffect(() => {
     setImgArr([]);
     getUploads();
-    console.log("This is issue ", imgArr);
   }, []);
   return (
     <>
