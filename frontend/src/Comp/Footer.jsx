@@ -65,9 +65,9 @@ const Footer = () => {
               </p>
             </div>
             <div className="col-md-4 recent_post_list container container-fluid">
-              <h1>Recent Posts</h1>
+              <h1>Latest Post</h1>
               {news.map((val, index) => {
-                if (index > 2) {
+                if (index > 0) {
                   return null;
                 } else {
                   return (
